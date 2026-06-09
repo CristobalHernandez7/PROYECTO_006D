@@ -77,4 +77,5 @@ while opcion != 5:
         
         case _:
               print ("Opcion Invalida")
+print("El programa ha finalizado satisfactoriamente")              
                     
