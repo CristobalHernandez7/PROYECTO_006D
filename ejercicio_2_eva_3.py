@@ -13,8 +13,9 @@ while opcion != 5:
     print("1.	Cupos disponibles")
     print("2.	Registrar vehículo")
     print("3.	Retirar vehículo")
-    print("4.	Historial de ocupaciones")
-    print("5.	Salir")
+    print("4.   Eiminar")
+    print("5.	Historial de ocupaciones")
+    print("6.	Salir")
 
     seguir =  True
 
@@ -66,9 +67,14 @@ while opcion != 5:
                else:
                   print("Error:  Se  sobrepaso la capacidad maxima  de estacionamiento")      
         case 4:
-              print(f"La cantidad de vehículos registrados en el estacionamiento es {historial} ")  
+              print("Se eliminara un vehiculo")
+        
         case 5:
+              print(f"La cantidad de vehículos registrados en el estacionamiento es {historial} ")  
+        
+        case 6:
               print("Gracias por utilizar nuestro software, hasta la próxima.")      
+        
         case _:
               print ("Opcion Invalida")
                     
